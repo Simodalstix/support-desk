@@ -4,15 +4,15 @@ const userSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, 'Please add a name'],
+      required: [true, 'Name field is required'],
     },
     email: {
       type: String,
-      required: [true, 'Please add an email'],
+      required: [true, 'Email is required'],
     },
     password: {
       type: String,
-      required: [true, 'Please add a password'],
+      required: [true, 'Password is required'],
     },
     isAdmin: {
       type: Boolean,
