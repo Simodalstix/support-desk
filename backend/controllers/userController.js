@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const User = require('../models/userModel');
 const res = require('express/lib/response');
+
 // Desciption - Register a new user
 // @route /api/users
 // @access Public
