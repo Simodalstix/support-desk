@@ -110,6 +110,10 @@ h3 {
   color: #777;
 }
 
+.morePadding {
+  padding-bottom: 10%;
+}
+
 .form {
   width: 70%;
   margin: 0 auto;
